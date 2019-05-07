@@ -1,0 +1,25 @@
+{
+  "name": "test_ci",
+  "version": "1.0.0",
+  "description": "Test-CI",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gavelino/test_ci.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gavelino/test_ci/issues"
+  },
+  "homepage": "https://github.com/gavelino/test_ci#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "express": "^4.16.4",
+    "mocha": "^6.1.4"
+  }
+}
